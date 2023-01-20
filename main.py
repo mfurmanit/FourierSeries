@@ -25,9 +25,6 @@ def s2(t):
     return s(t) * np.cos(2 * np.pi * t)
 
 
-def saa(t, k):
-    return s(t) * np.cos(k * np.pi * t)
-
 # Definicje współczynników
 # bN = 0 bo funkcja jest parzysta
 
